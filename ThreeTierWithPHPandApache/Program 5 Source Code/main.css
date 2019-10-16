@@ -1,0 +1,81 @@
+/* Name: Christopher Kanazeh
+   Course: CNT 4714 - Fall 2015
+   Assignment Title: A Three-Tier Distributed Web-Based Application Using PHP and Apache
+   Due Date: November 29, 2015
+*/ 
+
+body {
+        text-align: center;
+        background-color: white;
+}
+
+table.result{
+        margin: auto;
+        border-width: 2px;
+}
+td.resultA{
+        background-color: gainsboro;
+        border-width: 1px;
+        color: black;
+}
+td.resultB{
+        background-color: ghostwhite;
+        border-width: 1px;
+        color: black;
+}
+th.result{
+        background-color: white;
+        border-width: 1px;
+        font-weight: bold;
+        color: white;
+}
+div.content{
+        text-align: center;
+        margin: 5% 5% 5% 5%;
+}
+div.leftPanel{
+        float: left;
+        width: 10px;
+        max-width: 10px;
+}
+div.rightPanel{
+        margin-left: 100px;
+}
+div.header{
+        min-width: 640px;
+        width: 100%;
+}
+div.footer{
+        min-width: 640px;
+        width: 100%;
+}
+div.center{
+        min-width: 640px;
+        width: 100%;
+}
+td.leftCell{
+        vertical-align: top;
+        text-align: left;
+        padding-right: 25px;
+}
+td.rightCell{
+
+}
+
+hr {
+        height: 5px;
+        color: black;
+        background: black;
+}
+
+p.loginError{
+        text-align: center;
+        font-weight: bold;
+        color: red;
+}
+
+h3.footer{
+        text-align: center;
+        font-weight: bold;
+        color: red;
+}
